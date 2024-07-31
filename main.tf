@@ -1,6 +1,3 @@
-locals {
-  suffix = "aa-lab-03"
-}
 resource "azurerm_resource_group" "mainrg" {
   name = "rg-${local.suffix}"
   location = "centralindia"
